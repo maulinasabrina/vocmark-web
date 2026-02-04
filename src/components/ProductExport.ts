@@ -1,1 +1,1 @@
-export const productFile = "src/assets/vocmark.rar";
+export const productFile = "/assets/vocmark.rar";
