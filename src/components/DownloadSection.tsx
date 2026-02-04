@@ -1,4 +1,5 @@
 import { Download, Package } from "lucide-react";
+import { productFile } from "./ProductExport";
 
 const DownloadSection = () => {
   return (
@@ -19,7 +20,7 @@ const DownloadSection = () => {
           </p>
 
           <a 
-            href="#" 
+            href={productFile } 
             className="inline-flex items-center justify-center gap-3 px-8 py-4 text-lg font-medium bg-gradient-brand text-primary-foreground rounded-xl hover:opacity-90 transition-all shadow-brand hover:shadow-lg"
           >
             <Download className="w-6 h-6" />

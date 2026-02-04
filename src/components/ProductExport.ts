@@ -1,0 +1,1 @@
+export const productFile = "src/assets/vocmark.rar";
